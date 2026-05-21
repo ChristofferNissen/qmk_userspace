@@ -3,7 +3,7 @@
 #define NO_ACTION_MACRO
 #define NO_ACTION_FUNCTION
 
-#define PLOOPY_DPI_OPTIONS {400}
+#define PLOOPY_DPI_OPTIONS {1600}
 #define PLOOPY_DPI_DEFAULT 1
 #define PLOOPY_DRAGSCROLL_DPI 100
 
@@ -28,7 +28,7 @@
 #define ACCEL_LIMIT 4.0 // Maximum multiplier cap
 
 /* --- Scroll Configuration (Hysteresis & High-Res) --- */
-#define SCROLL_SENSITIVITY 0.9f // Multiplier for fine-grained scroll speed
+#define SCROLL_SENSITIVITY 0.7f // Multiplier for fine-grained scroll speed
 #define SCROLL_STRAIGHT_FACTOR 1.5
 #define SCROLL_UNLOCK_THRESHOLD 30
 // #define POINTING_DEVICE_TASK_THROTTLE_MS 1 // High refresh rate for smooth scroll
